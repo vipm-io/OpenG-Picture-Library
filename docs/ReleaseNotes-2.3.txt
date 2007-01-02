@@ -1,1 +1,1 @@
-This release (1) adds 100% unit test coverage during library build, (2) adds BSD licensing of library VIs, support for 32-bit images when using "Draw Image from File.vi", and (4) includes some minor improvements (see changelog).
+This release (1) adds 100% unit test coverage during library build, (2) adds BSD licensing of library VIs, (3) adds support for 32-bit images when using "Draw Image from File.vi", and (4) includes some minor improvements (see changelog).
