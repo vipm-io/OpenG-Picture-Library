@@ -1,0 +1,4 @@
+[2.3]
+date=2007-01-01
+release_id=475079
+md5=323e135ff61dc537c3c2fce142f760fe
