@@ -1,1 +1,3 @@
 VI Tree - picture.vi
+Write GIF File (Animated).vi
+Read GIF File (Animated).vi
