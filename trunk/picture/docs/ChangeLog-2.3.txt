@@ -1,6 +1,0 @@
-2007-01-01
-[MOD] Changed license from LGPL to BSD
-[FIX] In "Draw Image from File.vi", changed "path to BMP file" input name to "path to image file"
-[FIX] In "Draw Image from File.vi", made "path to image file" input required
-[FIX] In "Draw Image from File.vi", fixed SF.net bug 1604981 "Read 32-bit PNG fails"
-[MOD] In "Draw Image from File.vi", improved error messages and handling
