@@ -1,6 +1,6 @@
-OpenG Picture Tools
+OpenG Picture Library
 
-Copyright (c) 2002 Rolf Kalbermatter, Jim Kring; 2006 JKI; 2010 Jonathon Green
+Copyright (c) 2002 Rolf Kalbermatter, Jim Kring; 2006 JKI; 2010-2011 Jonathon Green
 
 All rights reserved.
 
