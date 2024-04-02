@@ -45,34 +45,7 @@
 				<Item Name="PreUninstall.vi" Type="VI" URL="../source/install scripts/PreUninstall.vi"/>
 			</Item>
 			<Item Name="library" Type="Folder">
-				<Item Name="GIF Support" Type="Folder">
-					<Item Name="Flatten Pixmap - GIF.vi" Type="VI" URL="../source/library/GIF Support/Flatten Pixmap - GIF.vi"/>
-					<Item Name="Util.Cmprs.LZW.CU.BitStream.vi" Type="VI" URL="../source/library/GIF Support/Util.Cmprs.LZW.CU.BitStream.vi"/>
-					<Item Name="Util.Cmprs.LZW.CU.BitStream.Width.vi" Type="VI" URL="../source/library/GIF Support/Util.Cmprs.LZW.CU.BitStream.Width.vi"/>
-					<Item Name="Util.Cmprs.LZW.CU.StringsTable.vi" Type="VI" URL="../source/library/GIF Support/Util.Cmprs.LZW.CU.StringsTable.vi"/>
-					<Item Name="Util.Cmprs.LZW.CU_CompressUncompress.vi" Type="VI" URL="../source/library/GIF Support/Util.Cmprs.LZW.CU_CompressUncompress.vi"/>
-					<Item Name="Util.Error.Build.vi" Type="VI" URL="../source/library/GIF Support/Util.Error.Build.vi"/>
-					<Item Name="Util.Pic.GIF.Block.PackUnpack.vi" Type="VI" URL="../source/library/GIF Support/Util.Pic.GIF.Block.PackUnpack.vi"/>
-				</Item>
-				<Item Name="GIF.Read" Type="Folder">
-					<Item Name="GIF.Read.Unpack.ChangeRowLength.vi" Type="VI" URL="../source/library/GIF.Read/GIF.Read.Unpack.ChangeRowLength.vi"/>
-					<Item Name="GIF.Read.Unpack.Interlace.vi" Type="VI" URL="../source/library/GIF.Read/GIF.Read.Unpack.Interlace.vi"/>
-					<Item Name="GIF.Read.Unpack.State.vi" Type="VI" URL="../source/library/GIF.Read/GIF.Read.Unpack.State.vi"/>
-					<Item Name="GIF.Read.Unpack.vi" Type="VI" URL="../source/library/GIF.Read/GIF.Read.Unpack.vi"/>
-				</Item>
-				<Item Name="GIF.Write" Type="Folder">
-					<Item Name="GIF.Write.Pack.Data.NormalizeImage.vi" Type="VI" URL="../source/library/GIF.Write/GIF.Write.Pack.Data.NormalizeImage.vi"/>
-					<Item Name="GIF.Write.Pack.Data.vi" Type="VI" URL="../source/library/GIF.Write/GIF.Write.Pack.Data.vi"/>
-					<Item Name="GIF.Write.Pack.LogicalScreen.vi" Type="VI" URL="../source/library/GIF.Write/GIF.Write.Pack.LogicalScreen.vi"/>
-					<Item Name="GIF.Write.Pack.vi" Type="VI" URL="../source/library/GIF.Write/GIF.Write.Pack.vi"/>
-				</Item>
-				<Item Name="Draw Image from File.vi" Type="VI" URL="../source/library/Draw Image from File.vi"/>
-				<Item Name="Flatten Pixmaps - GIF.vi" Type="VI" URL="../source/library/Flatten Pixmaps - GIF.vi"/>
-				<Item Name="Read GIF File (Animated).vi" Type="VI" URL="../source/library/Read GIF File (Animated).vi"/>
-				<Item Name="Read GIF File.vi" Type="VI" URL="../source/library/Read GIF File.vi"/>
-				<Item Name="VI Tree - picture.vi" Type="VI" URL="../source/library/VI Tree - picture.vi"/>
-				<Item Name="Write GIF File (Animated).vi" Type="VI" URL="../source/library/Write GIF File (Animated).vi"/>
-				<Item Name="Write GIF File.vi" Type="VI" URL="../source/library/Write GIF File.vi"/>
+				<Item Name="openg_picture.lvlib" Type="Library" URL="../source/library/openg_picture.lvlib"/>
 			</Item>
 			<Item Name="user docs" Type="Folder">
 				<Item Name="License Agreement.txt" Type="Document" URL="../source/user docs/License Agreement.txt"/>
@@ -81,47 +54,9 @@
 			<Item Name=".vipc" Type="Document" URL="../source/.vipc"/>
 		</Item>
 		<Item Name="tests" Type="Folder">
-			<Item Name="Draw Image from File Test Images" Type="Folder">
-				<Item Name="01-bit.bmp" Type="Document" URL="../tests/Draw Image from File Test Images/01-bit.bmp"/>
-				<Item Name="01-bit.gif" Type="Document" URL="../tests/Draw Image from File Test Images/01-bit.gif"/>
-				<Item Name="01-bit.jpg" Type="Document" URL="../tests/Draw Image from File Test Images/01-bit.jpg"/>
-				<Item Name="01-bit.png" Type="Document" URL="../tests/Draw Image from File Test Images/01-bit.png"/>
-				<Item Name="04-bit.bmp" Type="Document" URL="../tests/Draw Image from File Test Images/04-bit.bmp"/>
-				<Item Name="04-bit.gif" Type="Document" URL="../tests/Draw Image from File Test Images/04-bit.gif"/>
-				<Item Name="04-bit.jpg" Type="Document" URL="../tests/Draw Image from File Test Images/04-bit.jpg"/>
-				<Item Name="04-bit.png" Type="Document" URL="../tests/Draw Image from File Test Images/04-bit.png"/>
-				<Item Name="06-bit_OddRows.gif" Type="Document" URL="../tests/Draw Image from File Test Images/06-bit_OddRows.gif"/>
-				<Item Name="08-bit.bmp" Type="Document" URL="../tests/Draw Image from File Test Images/08-bit.bmp"/>
-				<Item Name="08-bit.gif" Type="Document" URL="../tests/Draw Image from File Test Images/08-bit.gif"/>
-				<Item Name="08-bit.jpg" Type="Document" URL="../tests/Draw Image from File Test Images/08-bit.jpg"/>
-				<Item Name="08-bit.png" Type="Document" URL="../tests/Draw Image from File Test Images/08-bit.png"/>
-				<Item Name="08-bit_Interlaced.gif" Type="Document" URL="../tests/Draw Image from File Test Images/08-bit_Interlaced.gif"/>
-				<Item Name="16-bit.bmp" Type="Document" URL="../tests/Draw Image from File Test Images/16-bit.bmp"/>
-				<Item Name="16-bit.gif" Type="Document" URL="../tests/Draw Image from File Test Images/16-bit.gif"/>
-				<Item Name="16-bit.jpg" Type="Document" URL="../tests/Draw Image from File Test Images/16-bit.jpg"/>
-				<Item Name="16-bit.png" Type="Document" URL="../tests/Draw Image from File Test Images/16-bit.png"/>
-				<Item Name="24-bit.bmp" Type="Document" URL="../tests/Draw Image from File Test Images/24-bit.bmp"/>
-				<Item Name="24-bit.gif" Type="Document" URL="../tests/Draw Image from File Test Images/24-bit.gif"/>
-				<Item Name="24-bit.jpg" Type="Document" URL="../tests/Draw Image from File Test Images/24-bit.jpg"/>
-				<Item Name="24-bit.png" Type="Document" URL="../tests/Draw Image from File Test Images/24-bit.png"/>
-				<Item Name="32-bit.bmp" Type="Document" URL="../tests/Draw Image from File Test Images/32-bit.bmp"/>
-				<Item Name="32-bit.gif" Type="Document" URL="../tests/Draw Image from File Test Images/32-bit.gif"/>
-				<Item Name="32-bit.jpg" Type="Document" URL="../tests/Draw Image from File Test Images/32-bit.jpg"/>
-				<Item Name="32-bit.png" Type="Document" URL="../tests/Draw Image from File Test Images/32-bit.png"/>
-			</Item>
-			<Item Name="TEST - Read GIF File - Support" Type="Folder">
-				<Item Name="GIF.!Sample_Interlaced.gif" Type="Document" URL="../tests/TEST - Read GIF File - Support/GIF.!Sample_Interlaced.gif"/>
-				<Item Name="GIF.!Sample_OddRows.gif" Type="Document" URL="../tests/TEST - Read GIF File - Support/GIF.!Sample_OddRows.gif"/>
-				<Item Name="GIF.!Sample_ShortAnimated.gif" Type="Document" URL="../tests/TEST - Read GIF File - Support/GIF.!Sample_ShortAnimated.gif"/>
-			</Item>
-			<Item Name="TEST - Write GIF File - Support" Type="Folder"/>
-			<Item Name="excluded_vis.txt" Type="Document" URL="../tests/excluded_vis.txt"/>
-			<Item Name="TEST - Draw Image from File.vi" Type="VI" URL="../tests/TEST - Draw Image from File.vi"/>
-			<Item Name="TEST - Flatten Pixmaps - GIF.vi" Type="VI" URL="../tests/TEST - Flatten Pixmaps - GIF.vi"/>
-			<Item Name="TEST - LZW CompressDecompress.vi" Type="VI" URL="../tests/TEST - LZW CompressDecompress.vi"/>
-			<Item Name="TEST - Read GIF File.vi" Type="VI" URL="../tests/TEST - Read GIF File.vi"/>
-			<Item Name="TEST - Write GIF File.vi" Type="VI" URL="../tests/TEST - Write GIF File.vi"/>
+			<Item Name="test_openg_picture.lvlib" Type="Library" URL="../tests/test_openg_picture.lvlib"/>
 		</Item>
+		<Item Name="VI Tree - picture.vi" Type="VI" URL="../source/library/VI Tree - picture.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
